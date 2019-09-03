@@ -5,6 +5,6 @@ from django.contrib.auth.models import AbstractUser
 class UserChild(AbstractUser):
 
     # Ver si le puedo agregar nuevos atributos
-    birthday = models.DateField()
-    genre = models.CharField(max_length=1, blank=True)
-    points = models.IntegerField(blank=True)
+    birthday = models.DateField(blank=True, null=True)
+    genre = models.CharField(max_length=1, default='U', blank=True)
+    points = models.IntegerField(blank=True, null=True)
