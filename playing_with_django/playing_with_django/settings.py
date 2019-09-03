@@ -31,10 +31,6 @@ ALLOWED_HOSTS = []
 AUTH_USER_MODEL = 'myapp.UserChild'
 
 
-# Modificando el usuario 'por defecto'
-AUTH_USER_MODE = 'myapp.UserChild'
-
-
 # Application definition
 
 INSTALLED_APPS = [
