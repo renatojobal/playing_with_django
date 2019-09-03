@@ -28,6 +28,10 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+# Modificando el usuario 'por defecto'
+AUTH_USER_MODE = 'myapp.UserChild'
+
+
 # Application definition
 
 INSTALLED_APPS = [
