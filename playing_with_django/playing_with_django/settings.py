@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Indicandole a django que ahora utilizaremos el modelo de Usuario mío
+AUTH_USER_MODEL = 'myapp.UserChild'
+
 
 # Modificando el usuario 'por defecto'
 AUTH_USER_MODE = 'myapp.UserChild'
